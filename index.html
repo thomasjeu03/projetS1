@@ -6,8 +6,89 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HiDen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/lib/normalize.css">
+    <link rel="stylesheet" href="css/mescss/layout.css">
+    <link rel="stylesheet" href="css/mescss/menu.css">
+    <link rel="stylesheet" href="css/mescss/typography.css">
+    <link rel="stylesheet" href="css/mescss/accueil.css">
 </head>
 <body>
-    <h1>HiDen</h1>
+    <header>
+        <img src="img/logo_iceberg.svg" alt="logo de HiDen" height="35" width="36">
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="">Le profil caché</a></li>
+                <li><a href="">À propos</a></li>
+            </ul>
+            <ul>
+                <li><a href="">The Social Network</a></li>
+                <li><a href="">Changement de profi</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>      
+        </nav>
+        <h1><a href="index.html">HiDen</a></h1>
+        <div class="slogan">
+            <div class="arrow">
+                <img src="img/arrow.png" alt="arrow" height="20" width="44">
+            </div>
+            <h2>Découvrez le profil caché de Facebook</h2>
+        </div>
+    </header>
+    <main>
+        <p>Plus de 753 milliards de dollars ! C’est la capitalisation boursière de Facebook il y a tout juste un mois. Mais que se cache-t-il vraiment derrière cette entreprise basée sur l’internet ?
+            Avec l’aide de notre site Web HiDen, vous découvrirez la face cachée de ce GAFA sur la planète : de ses datacenters, aux extensions en passant par la dépendance. Découvrez les conséquences de l’entreprise de Mark Zuckerberg. </p>
+        <div class="tweet">
+            <div class="article1">
+                <div class="titre">
+                    <h3>The Social Network</h3>
+                    <img src="img/tweet-article-1.jpg" alt="" height="91" width="173">
+                </div>
+                <p>Juste après l’essor des premiers réseaux sociaux tels que Myspace ou Msn, Mark Zuckerberg, arrive après un coup de tête de soirée. The Facebook est né.</p>
+                <div class="cta-decouvrir-article">
+                    <a href="">Découvrir l'article</a>
+                </div>
+            </div>
+            <div class="article2">
+                <div class="titre">
+                    <h3>Le profil caché</h3>
+                    <img src="img/tweet-article-2.jpg" alt="" height="91" width="173">
+                </div>
+                <p>Les entreprises telles que Facebook montrent leur belle image. Quel est leur profil caché ?</p>
+                <div class="cta-decouvrir-article">
+                    <a href="">Découvrir l'article</a>
+                </div>
+            </div>
+            <div class="article3">
+                <div class="titre">
+                    <h3>Changement de profil</h3>
+                    <img src="img/tweet-article-3.jpg" alt="" height="91" width="173">
+                </div>
+                <p>Les grandes entreprises comme les GAFAM ont commencé à se poser la question du coût environnemental des datacenters. Ils ont donc cherché et trouvé des solutions.</p>
+                <div class="cta-decouvrir-article">
+                    <a href="">Découvrir l'article</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h3>Thomas Jeu - B1</h3>
+        <div class="contact">
+            <p>Une question ?</p>
+            <div class="cta-contact">
+                <a href="contact.html">Contactez-moi</a>
+            </div>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/thomas.jeu.921" target="_blank" ><img src="img/facebook.png" alt="icon facebook" height="35" width="35"/></a>
+            <a href="https://www.instagram.com/thomasjeu_" target="_blank" ><img src="img/insta.png" alt="icon instagram" height="35" width="35"/></a>
+            <a href="mailto:mailto:jeuthomas03@gmail.com" target="_blank" ><img src="img/gmail.png" height="35" width="35"/></a>
+        </div>
+        <p>Projet réalisé dans la cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com/" target="_blank" >MMI de Montbéliard.</a></p>
+    </footer>
 </body>
 </html>

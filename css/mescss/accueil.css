@@ -1,0 +1,100 @@
+header, main, footer{
+    position: relative;
+    left: 26px;
+    align-content: center;
+}
+.slogan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FEFEFE;
+    margin-top: 655px;
+}
+.slogan>h2{
+    margin-top: 139px;
+    width: 90%;
+    color: #00315F;
+}
+.tweet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tweet .titre{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tweet h3{
+    width: 150px;
+}
+.tweet img{
+    align-items: end;
+    border-radius: 4px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.26) ;
+}
+.tweet p{
+    margin-top: 15px;
+}
+.cta-decouvrir-article{
+    margin-top: 20px;
+    margin-bottom: 90px;
+    position: relative;
+    font-weight: 400;
+    font-size: 20px;
+    width: 235px;
+    height: 50px;
+    border-radius: 26px;
+    background: linear-gradient(0.25turn, #CB311C, #7F3135);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.26) ;
+}
+.cta-decouvrir-article>a{
+    position: relative;
+    top: 15px;
+    left: 39px;
+}
+
+footer{
+    background-color: #D7C3AE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #00315F;
+}
+footer>.contact{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contact>p{
+    margin-right: 12px;
+}
+.cta-contact{
+    margin: 0;
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    width: 160px;
+    height: 40px;
+    border-radius: 26px;
+    background: linear-gradient(0.25turn, #CB311C, #7F3135);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.60) ;
+}
+.cta-contact>a{
+    position: relative;
+    top: 10px;
+    left: 28px;
+}
+footer>p{
+    font-size: 14px;
+    text-align: center;
+    width: 98%;
+}
+footer>p>a{
+    color: #CB311C;
+    border-bottom: 1px solid #CB311C;
+}

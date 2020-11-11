@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'OCR A Extended';
+    src: url('/font/OCRAEXT.ttf') format('truetype');
+}
+body{
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 300;
+    padding-top: 14px;
+    width: 323px;
+    align-content: center;
+    position: absolute;
+    font-family: 'Josefin Sans';
+    color: #FEFEFE;
+    background: #00315F;
+}
+a{
+    text-decoration: none;
+    color: #FEFEFE;
+}
+h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3{
+    text-align: center;
+}
+h1{
+    text-indent: -9999px;
+    content: url("../../img/hiden.svg");
+    width: 120px;
+    height: 30px;
+    align-items: center;
+}
+h2{
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 400;
+}
+header>h1{
+    margin: 0;
+    padding: 0;
+    left: 100px;
+}
+main>p{
+    width: 103%;
+    font-size: 20px;
+    margin-top: 317px;
+    margin-bottom: 130px;
+    line-height: 25px;
+}
+.titre>h3{
+    font-family: 'OCR A Extended';
+}
