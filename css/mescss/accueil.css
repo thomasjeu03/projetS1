@@ -10,7 +10,7 @@ header>a>img{
 }
 header>h1{
     position: relative;
-    left: 127px;
+    left: 130px;
     top: 280px;
 }
 .slogan{
@@ -19,6 +19,17 @@ header>h1{
     justify-content: center;
     flex-direction: column;
     margin-top: 655px;
+}
+.arrow{
+    position: relative;
+    animation: mymove 2s infinite ease-in-out;
+}
+@keyframes mymove {
+    from {top: -20px;
+        opacity: 0;}
+    to {top: 0px;
+        opacity: 1;}
+
 }
 .slogan h2{
     display: block;
@@ -41,6 +52,9 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.article1{
+    transition: all 0.5s ease-in-out;
 }
 .tweet .titre{
     position: relative;
@@ -118,7 +132,7 @@ footer>.contact{
     height: 40px;
     border-radius: 26px;
     background: #CB311C;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.60) ;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6) ;
 }
 .cta-contact>a{
     position: relative;
@@ -127,7 +141,7 @@ footer>.contact{
 }
 .cta-contact:active{
      box-shadow: inset -1px -1px 3px rgba(255,255,255,0.01),
-     inset 2px 2px 6px rgba(0,0,0,1);
+                 inset 2px 2px 6px rgba(0,0,0,0.6);
 }
 .contact>a{
     background-color: orange;

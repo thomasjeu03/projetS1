@@ -15,14 +15,25 @@
 .nav-toggle-bar::after {
     content: "";
     background-color: #FEFEFE;
-    border-radius: 2px;
+    border-radius: 100px;
     width: 100%;
-    height: 4px;
+    height: 3px;
     position: absolute;
     left: 0;
+    transition: all .4s ease-in-out;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 .nav-toggle-bar::before {top: -9px;}
 .nav-toggle-bar::after {top: 9px;}
+
+.menu-open .nav-toggle-bar {
+    transform: rotate(135deg);
+}
+.menu-open .nav-toggle-bar:before,
+.menu-open .nav-toggle-bar:after{
+    transform: rotate(90deg);
+    top: 0;
+}
 
 /*menu*/
 .menu{
@@ -39,11 +50,16 @@
     justify-content: center;
     z-index: 1;
     transform: translateX(100vw);
-    transition: 0.6s;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
 }
 .menu-open .menu{
     visibility: visible;
     transform: translateX(0);
+    opacity: 1;
+}
+.menu-open, .menu-open body{
+    overflow: hidden;
 }
 .colone1, .colone2{
     padding: 30px;
@@ -67,6 +83,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transform: translateY(150px) rotateZ(20deg);
+    opacity: 0;
+    transition: all 1s ease;
+    transition-delay: 0.1s;
 }
 .menu img{
     padding-bottom: 10px;
@@ -74,3 +94,13 @@
 .colone1>a:first-of-type{
     margin-bottom: 50px;
 }
+.menu-open .menu a{
+    transform: translateY(0) rotateZ(0deg);
+    opacity: 1;
+}
+.colone1 a:nth-of-type(n+1){transition-delay: 0.1s;}
+.colone1 a:nth-of-type(n+2){transition-delay: 0.3s;}
+.colone1 a:nth-of-type(n+3){transition-delay: 0.2s;}
+.colone2 a:nth-of-type(n+1){transition-delay: 0.3s;}
+.colone2 a:nth-of-type(n+2){transition-delay: 0.2s;}
+.colone2 a:nth-of-type(n+3){transition-delay: 0.1s;}
