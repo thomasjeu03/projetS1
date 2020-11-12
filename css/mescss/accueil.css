@@ -1,22 +1,39 @@
-header, main, footer{
+header, footer{
+    position: relative;
+    width: 375px;
+    align-content: center;
+}
+header>img{
     position: relative;
     left: 26px;
-    align-content: center;
+    top: 0;
+}
+header>h1{
+    position: relative;
+    left: 127px;
+    top: 280px;
 }
 .slogan{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #FEFEFE;
     margin-top: 655px;
 }
 .slogan>h2{
     margin-top: 139px;
-    width: 90%;
+    width: 80%;
     color: #00315F;
 }
+main{
+    padding-left: 26px;
+    width: 325px;
+    align-content: center;
+    padding-right: 26px;
+    background-color: #00315F;
+}
 .tweet{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +46,9 @@ header, main, footer{
     align-items: center;
 }
 .tweet h3{
-    width: 150px;
+    width: 130px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .tweet img{
     align-items: end;
@@ -41,7 +60,7 @@ header, main, footer{
 }
 .cta-decouvrir-article{
     margin-top: 20px;
-    margin-bottom: 90px;
+    margin-bottom: 100px;
     position: relative;
     font-weight: 400;
     font-size: 20px;
@@ -58,11 +77,20 @@ header, main, footer{
 }
 
 footer{
+    width: 377px;
+    height: 230px;
+    padding-top: 15px;
+    border-radius: 375px 0 0 / 50px;
     background-color: #D7C3AE;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #00315F;
+}
+footer>h3{
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: 400;
 }
 footer>.contact{
     position: relative;
@@ -72,6 +100,7 @@ footer>.contact{
 }
 .contact>p{
     margin-right: 12px;
+    font-weight: 400;
 }
 .cta-contact{
     margin: 0;
@@ -81,7 +110,7 @@ footer>.contact{
     width: 160px;
     height: 40px;
     border-radius: 26px;
-    background: linear-gradient(0.25turn, #CB311C, #7F3135);
+    background: #CB311C;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.60) ;
 }
 .cta-contact>a{
@@ -89,10 +118,14 @@ footer>.contact{
     top: 10px;
     left: 28px;
 }
+.social img{
+    margin: 20px 20px 10px 20px;
+}
 footer>p{
     font-size: 14px;
     text-align: center;
-    width: 98%;
+    width: 312px;
+    margin-bottom: 13px;
 }
 footer>p>a{
     color: #CB311C;

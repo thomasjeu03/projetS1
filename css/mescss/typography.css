@@ -1,18 +1,21 @@
-@font-face {
-    font-family: 'OCR A Extended';
-    src: url('/font/OCRAEXT.ttf') format('truetype');
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
-body{
+.accueil{
     font-size: 16px;
     line-height: 23px;
     font-weight: 300;
     padding-top: 14px;
-    width: 323px;
+    width: 375px;
     align-content: center;
     position: absolute;
     font-family: 'Josefin Sans';
     color: #FEFEFE;
-    background: #00315F;
+    background-color: #00315F;
+    background: no-repeat;
+    background-image: url("../../img/bg.jpg");
 }
 a{
     text-decoration: none;
@@ -50,5 +53,6 @@ main>p{
     line-height: 25px;
 }
 .titre>h3{
-    font-family: 'OCR A Extended';
+    font-family: 'Source Code Pro';
+    font-weight: 400;
 }
