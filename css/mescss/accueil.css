@@ -3,7 +3,7 @@ header, footer{
     width: 375px;
     align-content: center;
 }
-header>img{
+header>a>img{
     position: relative;
     left: 26px;
     top: 0;
@@ -20,8 +20,11 @@ header>h1{
     flex-direction: column;
     margin-top: 655px;
 }
-.slogan>h2{
+.slogan h2{
+    display: block;
+    align-content: end;
     margin-top: 139px;
+    margin-left: 38px;
     width: 80%;
     color: #00315F;
 }
@@ -75,12 +78,16 @@ main{
     top: 15px;
     left: 39px;
 }
+.cta-decouvrir-article:active{
+    box-shadow: inset -1px -1px 3px rgba(255,255,255,0.01),
+                inset 2px 2px 6px rgba(0,0,0,1);
+}
 
 footer{
     width: 377px;
     height: 230px;
     padding-top: 15px;
-    border-radius: 375px 0 0 / 50px;
+    border-radius: 375px 0 0 / 55px;
     background-color: #D7C3AE;
     display: flex;
     flex-direction: column;
@@ -117,6 +124,13 @@ footer>.contact{
     position: relative;
     top: 10px;
     left: 28px;
+}
+.cta-contact:active{
+     box-shadow: inset -1px -1px 3px rgba(255,255,255,0.01),
+     inset 2px 2px 6px rgba(0,0,0,1);
+}
+.contact>a{
+    background-color: orange;
 }
 .social img{
     margin: 20px 20px 10px 20px;
