@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Les grandes entreprises comme les GAFAM ont commencé à se poser la question du coût environnemental des datacenters. Ils ont donc commencé un changement de profil.">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Changement de profil</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo_iceberg.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo_iceberg.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/lib/normalize.css">
+    <link rel="stylesheet" href="css/mescss/menu.css">
+    <link rel="stylesheet" href="css/mescss/typography.css">
+    <link rel="stylesheet" href="css/mescss/article3.css">
+</head>
+<body class="ARTICLE3">
+<header>
+    <div class="nav-bar">
+        <a href="index.html"><img src="img/logo_iceberg.svg" alt="logo de HiDen" height="35" width="36"></a>
+        <h1><a href="index.html">HiDen</a></h1>
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
+        <nav class="menu">
+            <div class="colone1">
+                <a href="index.html"><img src="img/logo_iceberg.svg" alt="logo de HiDen" height="80" width="86">Accueil</a>
+                <a href="leprofilcaché.html"><img src="img/menu2.svg" alt="logo de HiDen" height="70" width="70">Le profil caché</a>
+                <a href="propos.html"><img src="img/menu3.svg" alt="logo de HiDen" height="70" width="70">À propos</a>
+            </div>
+            <div class="colone2">
+                <a href="thesocialnetwork.html"><img src="img/menu4.svg" alt="logo de HiDen" height="70" width="70">The Social Network</a>
+                <a href="changementdeprofil.html"><img src="img/menu5.svg" alt="logo de HiDen" height="70" width="70">Changement de profi</a>
+                <a href="contact.html"><img src="img/menu6.svg" alt="logo de HiDen" height="70" width="70">Contact</a>
+            </div>
+        </nav>
+    </div>
+    <div class="img">
+        <h2>Changement de profil</h2>
+    </div>
+</header>
+<main>
+    <article class="debut">
+        <p>Les grandes entreprises comme les GAFAM (Google, Amazon, Facebook, Apple, Microsoft) ont commencé à se poser la question du coût environnemental des datacenters. Ils ont donc cherché des solutions à la fois informatiques et climatiques.</p>
+        <h3>L'aération</h3>
+        <p>Pour baisser le coût électrique dû au dioxyde de charbon (CO2), les centres de données doivent baisser leur consommation en électricité. L’une des premières pistes de réflexion est de baisser la consommation des climatiseurs. Pour se faire, les datacenters peuvent aérer les lieux en espaçant les serveurs pour faciliter le trajet de l’air.  Facebook a choisi une autre solution en implantant l’un de ses centres près du cercle polaire, à Lulea, au nord de la suède. Cette solution permet de mettre à profit le climat froid de la suède, en particularité le vent polaire, pour consommer beaucoup moins d’électricité en climatiseur. Grace à ceci, le coût d’utilisation d’un système de refroidissement passe de 40% à 10%.</p>
+        <div class="illustration">
+            <img src="img/article3/image2.jpg" alt="Un des serveurs de Facebook à  Lulea en Suède"  height="179" width="328">
+            <div class="legende">
+                <p>Un des serveurs de Facebook à  Lulea en Suède </p>
+            </div>
+        </div>
+        <h3>La rentabilisation informatique</h3>
+        <p>Rendre les serveurs plus fiable et plus autonomes afin de faire plus confiance en eux et donc d’éviter la doublure de données dans le monde, est une autre solution.
+            Également au datacenter de Facebook à Lulea, un système d’autoréparation a été mis en place sur les machines. Lorsque qu’un serveur rencontre un problème informatique à cause d’un bug, le programme l’analyse et le répare.  Cette solution permet d’assurer le fonctionnement continu des serveurs. Et donc d’avoir une totale confiance en eux pour éviter, dans le futur, le triplage et voire mieux le doublage des données : diminuant donc la consommation électrique d’autres datacenters.</p>
+        <div class="illustration">
+            <img src="img/article3/image3.jpg" alt="Maintenance des serveurs d'un datacenterpar un employé"  height="179" width="328">
+            <div class="legende">
+                <p>Maintenance des serveurs d'un datacenter par un employé</p>
+            </div>
+        </div>
+    </article>
+    <article class="fin">
+        <h3>ANR DataZERO</h3>
+        <p>« Même si différents efforts ont été réalisés au L'efficacité énergétique dans les centres de données étant directement liée à la consommation de ressources d'un nœud de calcul, l'optimisation des performances et un ordonnancement efficace des calculs sont essentiels pour économiser l'énergie. La spécificité principale de notre approche est de placer le centre de données sous une contrainte de puissance, provenant entièrement d'énergies renouvelables : la puissance disponible peut ainsi varier au cours du temps. »</p>
+        <div class="citation">
+            <p>Le projet ANR DataZERO est une autre solution informatique en développement.</p>
+        </div>
+        <p>« L'ordonnancement de tâches sous ce genre de contrainte rend le problème plus difficile, puisqu'on doit notamment s'assurer qu'une tâche qui commence aura assez d'énergie pour aller jusqu'à son terme.  Dans cette thèse, nous commençons par proposer une planification de tâches de type "batch" qui se caractérisent par leur instant d'arrivée, leur date d'échéance et leurs demandes de ressources tout en respectant une contrainte de puissance. Les données utilisées pour les tâches de type batch viennent de traces de centres de données et contiennent des mesures de consommation CPU, mémoire et réseau. Quant aux enveloppes de puissance considérées, elles représentent ce que pourrait fournir un module de décision électrique, c'est-à-dire la production d'énergie prévue (énergie renouvelable seulement) basée sur les prévisions météorologiques. »</p>
+        <div class="illustration">
+            <img src="img/article3/image4.jpg" alt="Schéma expliquant l'évolution des énergies renouvelables produites par les datacenters"  height="144" width="210">
+            <div class="legende">
+                <p>Evolution des énergies renouvelables produites par les datacenters</p>
+            </div>
+        </div>
+        <p>« Par la suite, nous examinons une charge de travail composée de tâches de type "batch" et de services, où la consommation des ressources varie au cours du temps. Les traces utilisées pour les services proviennent d’un centre de données à "business critique". Dans ce cadre, nous envisageons le concept de phases, dans lequel les changements significatifs de
+            consommation de ressources à l'intérieur d'une même tâche marquent le début d'une nouvelle phase. » </p>
+        <div class="citation">
+            <p>« L'objectif est de maximiser la Qualité de Service avec une contrainte sur la puissance électrique. »</p>
+        </div>
+        <p>« Nous considérons également un modèle de tâches pouvant recevoir moins de ressources que demandées. Nous étudions l'impact de ce modèle sur le profit du centre de données pour chaque type de tâche. Nous intégrons aussi le concept de "corrélation croisée" pour évaluer où placer une tâche selon une courbe de puissance afin de trouver le meilleur nœud pour placer plusieurs tâches (c.-à-d. Partager les ressources).» </p>
+        <p>«Enfin, nous présentons une approche pour faire face à des événements inattendus tels que des tâches exigeantes plus ou moins de ressources que prévu, ou ayant une date de fin différente, et étudions les actions possibles, compte tenu de la dégradation des tâches et de l'impact sur le profit du centre de données. »</p>
+        <div class="extrait">
+            <p>Extrait de la mise en introduction de la thèse de Gustavo ROSTIROLLA : « Ordonnancement dans un centre de calculs alimenté par des sources d’énergie renouvelables sans connexion au réseau avec une charge de travail mixte basée sur des phases », publié le 25 novembre 2019.</p>
+        </div>
+        <h3>Conclusion</h3>
+        <p>Les centres de données cherchent à consommer moins d’énergie grâce à des solutions à la fois thermiques et informatiques. Ce gain peut leur faire aussi gagner de l’argent à long terme. </p>
+        <div class="cta-navigation">
+            <div class="article-suivant">
+                <p>
+                    <a href="propos.html">À propos</a>
+                </p>
+            </div>
+            <p>
+                <a href="index.html">Accueil</a>
+            </p>
+        </div>
+    </article>
+</main>
+<footer>
+    <h3>Thomas Jeu - B1</h3>
+    <div class="contact">
+        <p>Une question ?</p>
+        <div class="cta-contact">
+            <a href="contact.html">Contactez-moi</a>
+        </div>
+    </div>
+    <div class="social">
+        <a href="https://www.facebook.com/thomas.jeu.921" target="_blank" ><img src="img/facebook.png" alt="icon facebook" height="35" width="35"/></a>
+        <a href="https://www.instagram.com/thomasjeu_" target="_blank" ><img src="img/insta.png" alt="icon instagram" height="35" width="35"/></a>
+        <a href="mailto:mailto:jeuthomas03@gmail.com" target="_blank" ><img src="img/gmail.png" height="35" width="35"/></a>
+    </div>
+    <p>Projet réalisé dans la cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com/" target="_blank" >MMI de Montbéliard.</a></p>
+</footer>
+</body>
+</html>

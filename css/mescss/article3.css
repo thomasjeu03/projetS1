@@ -28,13 +28,13 @@ header{
 .img{
     top: 64px;
     width: 375px;
-    height: 265px;
+    height: 262px;
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url("../../img/article1/article1title.jpg");
+    background-image: url("../../img/article3/article3title.jpg");
 }
 .img>h2{
     position: relative;
@@ -48,8 +48,22 @@ header{
     height: 36px;
     top: 80px;
 }
-.intro, .success-story, .resultats-humain, .conclusion, .autres-films{
+.debut, .fin{
     padding: 0 26px;
+}
+.debut{
+    padding-bottom: 20px;
+}
+.fin{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-bottom: -50px;
+    background-color: #00315F;
+    border-top-left-radius:  375px 55px;
+    background-color: #00315F;
+}
+.fin img{
+    left: 56px;
 }
 h3{
     text-align: left;
@@ -60,62 +74,32 @@ h3{
 main p{
     margin: 15px 0 60px 0;
 }
-.intro>p{
-    padding-top: 10px;
-}
-.trailer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-video{
-    border-radius: 8px;
-    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
-    display: block;
-    height: 180px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    background-color: #000;
-}
-.success-story{
-     padding: 25px 26px 1px 26px;
-     background-color: #00315F;
-     border-top-right-radius:  375px 55px;
-     border-bottom-right-radius:  375px 55px;
-}
-.success-story img{
+main img{
+    position: relative;
+    right: 5px;
     border-radius: 8px;
     box-shadow: 0 3px 20px rgba(0,0,0,0.4);
 }
-.success-story .legende>p{
-    width: 186px;
-    margin-left: auto;
+.intro>p{
+    padding-top: 10px;
 }
 .legende{
     margin-left: auto;
     font-size: 14px;
     text-align: right;
-    width: auto;
+    width: 300px;
     line-height: 20px;
     height: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 .legende>p{
     padding-left: 10px;
     border-left: 2px solid #CB311C;
     margin: 15px 0 0 0;
 }
-.resultats-humain{
-    margin-top: 40px;
-}
-.conclusion{
-     padding-bottom: 50px;
-     padding-top: 50px;
-     background-color: #00315F;
-     border-top-left-radius:  375px 55px;
-     border-bottom-left-radius: 375px 55px;
-}
+
+
+
 .cta-navigation{
     position: relative;
     display: flex;
@@ -160,45 +144,7 @@ video{
 }
 .article-suivant:active{
     box-shadow: inset -1px -1px 3px rgba(255,255,255,0.01),
-                inset 2px 2px 6px rgba(0,0,0,0.6);
-}
-.autres-films{
-    margin-top: 40px;
-    margin-bottom: 70px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.autres-films>h3{
-    text-align: center;
-    width: 230px;
-    margin: auto;
-    margin-bottom: 20px;
-}
-.steve-jobs, .imitation-game, .snowden, .jobs{
-    margin: 15px 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.autres-films img{
-    border-radius: 4px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.8);
-}
-.autres-films img:active{
-    box-shadow: inset -1px -1px 3px rgba(255,255,255,0.01),
     inset 2px 2px 6px rgba(0,0,0,0.6);
-}
-.info-films>p{
-    margin: 0 0 0 45px;
-    padding: 0;
-    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
-}
-.info-films p:first-of-type{
-    font-size: 20px;
-    font-weight: 400;
 }
 footer{
     width: 377px;
@@ -248,7 +194,7 @@ footer>.contact{
 }
 .cta-contact:active{
     box-shadow: inset -1px -1px 3px rgba(255,255,255,0.01),
-                inset 2px 2px 6px rgba(0,0,0,0.6);
+    inset 2px 2px 6px rgba(0,0,0,0.6);
 }
 .contact>a{
     background-color: orange;

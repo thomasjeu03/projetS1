@@ -1,0 +1,230 @@
+header, footer{
+    position: relative;
+    width: 375px;
+    align-content: center;
+}
+header{
+    height: 276px;
+}
+.nav-bar{
+    z-index: 100;
+    position: fixed;
+    padding: 0 26px;
+    width: 323px;
+    height: 64px;
+    background: radial-gradient(#1A4475 10%, #00315F 100%);
+    box-shadow: 0 3px 99px rgba(0,0,0,0.35);
+}
+.nav-bar>a>img{
+    position: relative;
+    top: 14px;
+}
+.nav-bar>h1{
+    position: relative;
+    left: 104px;
+    top: -27px;
+    color: #FEFEFE;
+}
+.img{
+    top: 64px;
+    width: 375px;
+    height: 212px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../../img/apropos/apropostitle.jpg");
+    background-size: cover;
+}
+.img>h2{
+    position: relative;
+    align-content: center;
+    padding-top: 5px;
+    font-family: "Space Mono";
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #00315F;
+    color: #FEFEFE;
+    width: 196px;
+    height: 36px;
+    top: 60px;
+}
+article{
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+article>p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+article>a{
+    height: 57px;
+}
+.arrow{
+    margin-top: 20px;
+    position: relative;
+    animation: mymove 2s infinite ease-in-out;
+}
+@keyframes mymove {
+    from {top: -20px;
+        opacity: 0;}
+    to {top: 0px;
+        opacity: 1;}
+}
+
+.carousel{
+    margin: 30px 0 70px 0;
+}
+.carousel_items{
+    width: 375px;
+    padding: 0;
+    margin: 0 20px 0 0;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+.carousel-item{
+    width: 180px;
+    height: 230px;
+    background-color:#00315F;
+    border-radius: 15px;
+    list-style-type: none;
+    margin: 20px 20px 30px 20px;
+    flex: 1 0 180px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    scroll-snap-align: center;
+}
+li:first-child,
+li:nth-child(5),
+li:nth-child(9),
+li:first-child>a>h3,
+li:nth-child(5)>a>h3,
+li:nth-child(9)>a>h3{
+    background-color: #D7C3AE;
+    color: #070707;
+}
+li:nth-child(3),
+li:nth-child(7){
+    background-color: #5872A9;
+}
+li:nth-child(4),
+li:nth-child(8){
+    background-color: #CB311C;
+}
+.carousel-item a{
+    width: 180px;
+    height: 230px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+main h3{
+    max-width: 160px;
+    font-family: "Space Mono";
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: normal;
+}
+::-webkit-scrollbar{
+    height: 2px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f0f0f0;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #CB311C;
+}
+
+video{
+    border-radius: 8px;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+    height: auto;
+    width: 100%;
+    background-color: #000;
+}
+.legende{
+    margin-left: auto;
+    font-size: 14px;
+    text-align: right;
+    width: 70px;
+    height: auto;
+    margin-bottom: 0px;
+}
+.legende>p{
+    font-weight: normal;
+    padding-left: 10px;
+    border-left: 2px solid #CB311C;
+    margin: 8px 0 15px 0;
+}
+footer{
+    width: 377px;
+    height: 230px;
+    padding-top: 15px;
+    border-radius: 375px 0 0 / 55px;
+    background-color: #D7C3AE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #00315F;
+}
+footer>h3{
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: 400;
+}
+footer>.contact{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contact>p{
+    margin-right: 12px;
+    font-weight: 400;
+}
+.cta-contact{
+    margin: 0;
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    width: 160px;
+    height: 40px;
+    border-radius: 26px;
+    background: #CB311C;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+}
+.cta-contact a{
+    padding-top: 10px;
+    height: 30px;
+    border-radius: 26px;
+    display:block;
+    text-align:center;
+    position: relative;
+}
+.cta-contact:active{
+    box-shadow: inset -1px -1px 3px rgba(255,255,255,0.01),
+    inset 2px 2px 6px rgba(0,0,0,0.6);
+}
+.contact>a{
+    background-color: orange;
+}
+.social img{
+    padding: 20px 20px 10px 20px;
+}
+footer>p{
+    font-size: 14px;
+    text-align: center;
+    width: 312px;
+    margin-bottom: 13px;
+}
+footer>p>a{
+    color: #CB311C;
+    border-bottom: 1px solid #CB311C;
+}

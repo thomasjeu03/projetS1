@@ -2,19 +2,117 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Page à propos du site web HiDen">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>À propos</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo_iceberg.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo_iceberg.svg">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/lib/normalize.css">
-    <link rel="stylesheet" href="css/mescss/layout.css">
     <link rel="stylesheet" href="css/mescss/menu.css">
     <link rel="stylesheet" href="css/mescss/typography.css">
-    <link rel="stylesheet" href="css/mescss/accueil.css">
+    <link rel="stylesheet" href="css/mescss/propos.css">
 </head>
-<body>
-
+<body class="APROPOS">
+<header>
+    <div class="nav-bar">
+        <a href="index.html"><img src="img/logo_iceberg.svg" alt="logo de HiDen" height="35" width="36"></a>
+        <h1><a href="index.html">HiDen</a></h1>
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
+        <nav class="menu">
+            <div class="colone1">
+                <a href="index.html"><img src="img/logo_iceberg.svg" alt="logo de HiDen" height="80" width="86">Accueil</a>
+                <a href="leprofilcaché.html"><img src="img/menu2.svg" alt="logo de HiDen" height="70" width="70">Le profil caché</a>
+                <a href="propos.html"><img src="img/menu3.svg" alt="logo de HiDen" height="70" width="70">À propos</a>
+            </div>
+            <div class="colone2">
+                <a href="thesocialnetwork.html"><img src="img/menu4.svg" alt="logo de HiDen" height="70" width="70">The Social Network</a>
+                <a href="changementdeprofil.html"><img src="img/menu5.svg" alt="logo de HiDen" height="70" width="70">Changement de profi</a>
+                <a href="contact.html"><img src="img/menu6.svg" alt="logo de HiDen" height="70" width="70">Contact</a>
+            </div>
+        </nav>
+    </div>
+    <div class="img">
+        <h2>À propos</h2>
+    </div>
+</header>
+<main>
+    <article>
+        <h4>Thomas JEU, étudiant en première année de DUT MMI à Montbéliard.</h4>
+        <p>J'ai 17 ans et après avoir fait un bac scientifique, je suis venu dans le DUT
+            MMI de Montbéliard afin de réaliser ce type de projet. De plus, j'ai choisi de traiter ce sujet car la thématique m'a
+            rappelé mon premier visionnage de The Social Network, qui m'a fait aimer le cinéma.</p>
+        <a href="http://mmimontbeliard.com/" target="_blank"><img src="img/mmi.png" alt="Logo du département MMI de Montbéliard" height="57" width="57"></a>
+        <h4>Vous pouvez voir les 9 autres projets du groupe B1 de MMI Montbéliard<br>ci-dessous.</h4>
+        <div class="arrow">
+            <a href="#carousel"><img src="img/arrow.png" alt="arrow" height="20" width="44"></a>
+        </div>
+    </article>
+    <section class="carousel" id="carousel">
+        <ul class="carousel_items">
+            <li class="carousel-item">
+                <a href="http://projets1.mart1liger.fr/" target="_blank"><img src="img/projets/projet1.png" alt="Logo du projet de Martin Liger" height="108" width="122">
+                    <h3>Numérisk</h3></a></li>
+            <li class="carousel-item">
+                <a href="http://projets1.lambolezth.fr/" target="_blank"><img src="img/projets/projet2.png" alt="Logo du projet de Thomas Lambolez" height="29" width="145">
+                    <h3>E.LLUSION</h3></a></li>
+            <li class="carousel-item">
+                <a href="https://projets1.maximemalatier.fr/" target="_blank"><img src="img/projets/projet3.png" alt="Logo du projet de Maxime Malatier" height="113" width="113">
+                    <h3>The Dark Side of Pied Piper</h3></a></li>
+            <li class="carousel-item">
+                <a href="http://projets1.teogheno.fr/" target="_blank"><img src="img/projets/projet4.png" alt="Logo du projet de Téo Gheno" height="133" width="173">
+                    <h3>Nuclear Web</h3></a></li>
+            <li class="carousel-item">
+                <a href="http://projets1.nikolag25.fr/" target="_blank"><img src="img/projets/projet5.png" alt="Logo du projet de Nicolas Gelin" height="107" width="109">
+                    <h3>Black Wolrld</h3></a></li>
+            <li class="carousel-item">
+                <a href="http://projets1.julienferre.fr/" target="_blank"><img src="img/projets/projet6.png" alt="Logo du projet de Julien Ferré" height="108" width="100">
+                    <h3>Terminateur Web</h3></a></li>
+            <li class="carousel-item">
+                <a href="http://projets1.maxenceguichard.fr/" target="_blank"><img src="img/projets/projet7.png" alt="Logo du projet de Maxence Guichard" height="171" width="171">
+                    <h3>La menace fantôme</h3></a></li>
+            <li class="carousel-item">
+                <a href="http://projets1.raph-lem.com/" target="_blank"><img src="img/projets/projet8.png" alt="Logo du projet de Raphaël Lemoine" height="132" width="132">
+                    <h3>VR : Une réalité pas si virtuelle</h3></a></li>
+            <li class="carousel-item">
+                <a href="https://projets1.hsolenne.fr/" target="_blank"><img src="img/projets/projet9.png" alt="Logo du projet de Solenne Heitz" height="73" width="100">
+                    <h3>Technogreen</h3></a></li>
+            <li class="carousel-item">
+                <a href="http://projets1.juemond.fr/" target="_blank"><img src="img/projets/projet10.png" alt="Logo du projet de Justine Emond" height="140" width="140">
+                    <h3>Dark Lyoko</h3></a></li>
+        </ul>
+    </section>
+    <article>
+        <div class="interview">
+            <video controls="controls" src="video/interview.mp4" type="video/mp4" loop preload="auto">
+                <track kind="captions" srclang="fr" label="french_captions">
+            </video>
+            <div class="legende">
+                <p>Interview</p>
+            </div>
+        </div>
+        <p>La mise en place d'une interview à été faites pour découvrir l'opinion d'autre personnes.</p>
+    </article>
+</main>
+<footer>
+    <h3>Thomas Jeu - B1</h3>
+    <div class="contact">
+        <p>Une question ?</p>
+        <div class="cta-contact">
+            <a href="contact.html">Contactez-moi</a>
+        </div>
+    </div>
+    <div class="social">
+        <a href="https://www.facebook.com/thomas.jeu.921" target="_blank" ><img src="img/facebook.png" alt="icon facebook" height="35" width="35"/></a>
+        <a href="https://www.instagram.com/thomasjeu_" target="_blank" ><img src="img/insta.png" alt="icon instagram" height="35" width="35"/></a>
+        <a href="mailto:mailto:jeuthomas03@gmail.com" target="_blank" ><img src="img/gmail.png" height="35" width="35"/></a>
+    </div>
+    <p>Projet réalisé dans la cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com/" target="_blank" >MMI de Montbéliard.</a></p>
+</footer>
 </body>
 </html>

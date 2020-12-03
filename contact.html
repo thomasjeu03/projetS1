@@ -2,17 +2,85 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="N'hésitez pas à me contacter en cas de question ou commentaires.">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contactez-moi</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo_iceberg.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo_iceberg.svg">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/lib/normalize.css">
-    <link rel="stylesheet" href="css/mescss/layout.css">
+    <link rel="stylesheet" href="css/mescss/contact.css">
     <link rel="stylesheet" href="css/mescss/menu.css">
     <link rel="stylesheet" href="css/mescss/typography.css">
+    <script src="https://kit.fontawesome.com/5440349af9.js" crossorigin="anonymous"></script>
 </head>
-<body>
-
+<body class="CONTACT">
+<header>
+    <div class="nav-bar">
+        <a href="index.html"><img src="img/logo_iceberg.svg" alt="logo de HiDen" height="35" width="36"></a>
+        <h1><a href="index.html">HiDen</a></h1>
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
+        <nav class="menu">
+            <div class="colone1">
+                <a href="index.html"><img src="img/logo_iceberg.svg" alt="logo de HiDen" height="80" width="86">Accueil</a>
+                <a href="leprofilcaché.html"><img src="img/menu2.svg" alt="logo de HiDen" height="70" width="70">Le profil caché</a>
+                <a href="propos.html"><img src="img/menu3.svg" alt="logo de HiDen" height="70" width="70">À propos</a>
+            </div>
+            <div class="colone2">
+                <a href="thesocialnetwork.html"><img src="img/menu4.svg" alt="logo de HiDen" height="70" width="70">The Social Network</a>
+                <a href="changementdeprofil.html"><img src="img/menu5.svg" alt="logo de HiDen" height="70" width="70">Changement de profi</a>
+                <a href="contact.html"><img src="img/menu6.svg" alt="logo de HiDen" height="70" width="70">Contact</a>
+            </div>
+        </nav>
+    </div>
+    <div class="img">
+        <h2>Une Question ?</h2>
+    </div>
+</header>
+<main>
+    <h4>En cas de questions ou commentaires, veuillez remplir le formulaire suivant.</h4>
+    <form action="" method="post">
+        <ul>
+            <li>
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+                <label for="name">Prénom</label>
+                <input type="text" id="firstname" name="user_name" />
+            </li>
+            <li>
+                <label for="mail">E-mail</label>
+                <i class="fas fa-asterisk"></i>
+                <input type="email" id="mail" name="user_mail" />
+            </li>
+            <li>
+                <label for="msg">Votre message</label>
+                <i class="fas fa-asterisk"></i>
+                <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li>
+                <p><i class="fas fa-asterisk"></i>Champs obligatoires</p>
+            </li>
+            <li class="button">
+                <button type="submit">Envoyer</button>
+            </li>
+        </ul>
+    </form>
+</main>
+<footer>
+    <h3>Thomas Jeu - B1</h3>
+    <div class="social">
+        <a href="https://www.facebook.com/thomas.jeu.921" target="_blank" ><img src="img/facebook.png" alt="icon facebook" height="35" width="35"/></a>
+        <a href="https://www.instagram.com/thomasjeu_" target="_blank" ><img src="img/insta.png" alt="icon instagram" height="35" width="35"/></a>
+        <a href="mailto:mailto:jeuthomas03@gmail.com" target="_blank" ><img src="img/gmail.png" height="35" width="35"/></a>
+    </div>
+    <p>Projet réalisé dans la cadre d'un exercice pédagogique au département <a href="http://mmimontbeliard.com/" target="_blank" >MMI de Montbéliard.</a></p>
+</footer>
 </body>
 </html>

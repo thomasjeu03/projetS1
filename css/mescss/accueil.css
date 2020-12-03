@@ -8,7 +8,7 @@ header>a>img{
     left: 26px;
     top: 0;
 }
-header>h1{
+.accueil>header>h1{
     position: relative;
     left: 130px;
     top: 280px;
@@ -29,7 +29,6 @@ header>h1{
         opacity: 0;}
     to {top: 0px;
         opacity: 1;}
-
 }
 .slogan h2{
     display: block;
@@ -86,11 +85,20 @@ main{
     border-radius: 26px;
     background: linear-gradient(0.25turn, #CB311C, #7F3135);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.26) ;
+    color: #FEFEFE;
 }
-.cta-decouvrir-article>a{
-    position: relative;
-    top: 15px;
-    left: 39px;
+.cta-decouvrir-article p{
+    border-radius: 26px;
+}
+.cta-decouvrir-article a{
+    padding-top: 14px;
+    border-radius: 26px;
+    height: 36px;
+    display:block;
+    text-align:center;
+    vertical-align:middle;
+    color: #FEFEFE;
+    text-decoration: none;
 }
 .cta-decouvrir-article:active{
     box-shadow: inset -1px -1px 3px rgba(255,255,255,0.01),
@@ -134,20 +142,21 @@ footer>.contact{
     background: #CB311C;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6) ;
 }
-.cta-contact>a{
+.cta-contact a{
+    padding-top: 10px;
+    height: 30px;
+    border-radius: 26px;
+    display:block;
+    text-align:center;
+    vertical-align:middle;
     position: relative;
-    top: 10px;
-    left: 28px;
 }
 .cta-contact:active{
      box-shadow: inset -1px -1px 3px rgba(255,255,255,0.01),
                  inset 2px 2px 6px rgba(0,0,0,0.6);
 }
-.contact>a{
-    background-color: orange;
-}
 .social img{
-    margin: 20px 20px 10px 20px;
+    padding: 20px 20px 10px 20px;
 }
 footer>p{
     font-size: 14px;

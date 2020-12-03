@@ -18,16 +18,44 @@ html{
     background: no-repeat;
     background-image: url("../../img/bg.jpg");
 }
-.ARTICLE1{
+.CONTACT{
     font-size: 16px;
-    line-height: 23px;
+    line-height: 25px;
     font-weight: 300;
-    padding-top: 14px;
     width: 375px;
+    text-align: left;
+    align-content: center;
+    position: absolute;
+    font-family: 'Josefin Sans';
+    background-color: #FEFEFE;
+    color: #00315F;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+.APROPOS{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    width: 375px;
+    text-align: left;
+    align-content: center;
+    position: absolute;
+    font-family: 'Josefin Sans';
+    background-color: #FEFEFE;
+    color: #00315F;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+.ARTICLE1, .ARTICLE2, .ARTICLE3{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+    width: 375px;
+    text-align: left;
     align-content: center;
     position: absolute;
     font-family: 'Josefin Sans';
     background-color: #5872A9;
+    color: #FEFEFE;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 a{
     text-decoration: none;
@@ -40,17 +68,30 @@ h1,h2,h3,p{
 h1,h2,h3{
     text-align: center;
 }
-h1{
+.accueil h1{
     text-indent: -9999px;
     content: url("../../img/hiden.svg");
     width: 120px;
     height: 30px;
     align-items: center;
 }
+.nav-bar>h1 {
+    text-indent: -9999px;
+    content: url("../../img/hiden.svg");
+    width: 120px;
+    height: 30px;
+}
 h2{
     line-height: 30px;
     font-size: 25px;
     font-weight: 400;
+}
+h4{
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: center;
 }
 header>h1{
     margin: 0;
@@ -65,6 +106,57 @@ main>p{
     line-height: 25px;
 }
 .titre>h3{
-    font-family: 'Source Code Pro';
+    font-family: 'Space Mono';
     font-weight: 400;
 }
+.citation p{
+    height: auto;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.pollution p{
+    margin-bottom: 30px;
+}
+.pollution .citation p{
+    margin-left: 10px;
+    position: center;
+    width: 241px;
+    text-align: center;
+    height: auto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    border-left: 3px solid #CB311C;
+}
+.fin .legende{
+    margin-bottom: 20px;
+}
+.fin p{
+    margin-bottom: 30px;
+}
+.fin>p:last-of-type {
+    margin-bottom: 60px;
+}
+.fin .citation p{
+    margin-left: 10px;
+    position: center;
+    width: 241px;
+    text-align: center;
+    height: auto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    border-left: 3px solid #CB311C;
+}
+.extrait{
+    height: auto;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
