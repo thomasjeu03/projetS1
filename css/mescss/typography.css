@@ -1,10 +1,7 @@
-html{
+.accueil{
     overflow-x: hidden;
     overflow-y: scroll;
     scroll-behavior: smooth;
-}
-.accueil{
-    overflow: hidden;
     font-size: 16px;
     line-height: 23px;
     font-weight: 300;
@@ -19,6 +16,9 @@ html{
     background-image: url("../../img/bg.jpg");
 }
 .CONTACT{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
     font-size: 16px;
     line-height: 25px;
     font-weight: 300;
@@ -32,6 +32,9 @@ html{
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 .APROPOS{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
     font-size: 16px;
     line-height: 25px;
     font-weight: 300;
@@ -45,6 +48,9 @@ html{
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 .ARTICLE1, .ARTICLE2, .ARTICLE3{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
     font-size: 16px;
     line-height: 25px;
     font-weight: 300;
@@ -120,7 +126,6 @@ main>p{
 }
 .pollution .citation p{
     margin-left: 10px;
-    position: center;
     width: 241px;
     text-align: center;
     height: auto;
@@ -142,7 +147,6 @@ main>p{
 }
 .fin .citation p{
     margin-left: 10px;
-    position: center;
     width: 241px;
     text-align: center;
     height: auto;

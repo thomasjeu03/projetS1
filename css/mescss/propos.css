@@ -57,6 +57,9 @@ article{
     flex-direction: column;
     justify-content: center;
 }
+article>h2{
+    padding-bottom: 20px;
+}
 article>p{
     line-height: 25px;
     margin-bottom: 20px;
@@ -147,6 +150,7 @@ video{
     height: auto;
     width: 100%;
     background-color: #000;
+    margin-bottom: 25px;
 }
 .legende{
     margin-left: auto;

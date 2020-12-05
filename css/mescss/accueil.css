@@ -83,7 +83,7 @@ main{
     width: 235px;
     height: 50px;
     border-radius: 26px;
-    background: linear-gradient(0.25turn, #CB311C, #7F3135);
+    background: linear-gradient(0.25turn, #CB311C, #CB311C);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.26) ;
     color: #FEFEFE;
 }
