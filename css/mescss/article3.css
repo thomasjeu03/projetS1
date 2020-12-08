@@ -212,3 +212,30 @@ footer>p>a{
     color: #CB311C;
     border-bottom: 1px solid #CB311C;
 }
+.cta-watch{
+    margin: 0 0 50px 0;
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    width: 160px;
+    height: 40px;
+    border-radius: 26px;
+    background: #D7C3AE;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+}
+.cta-watch>p{
+    margin-right: 12px;
+}
+.cta-watch a{
+    color: #070707;
+    padding-top: 10px;
+    height: 30px;
+    border-radius: 26px;
+    display:block;
+    text-align:center;
+    position: relative;
+}
+.cta-watch:active{
+    box-shadow: inset -1px -1px 3px rgba(255,255,255,0.01),
+    inset 2px 2px 6px rgba(0,0,0,0.6);
+}

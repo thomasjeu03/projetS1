@@ -163,4 +163,15 @@ main>p{
     line-height: 20px;
     margin-bottom: 40px;
 }
-
+strong{
+    font-weight: 500;
+    color: white;
+}
+.citation strong{
+    color: #00315F;
+    font-weight: 600;
+}
+.centrededonnees2 strong{
+    color: #00315F;
+    font-weight: 600;
+}
