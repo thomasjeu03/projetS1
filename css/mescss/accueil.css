@@ -25,9 +25,9 @@ header>a>img{
     animation: mymove 2s infinite ease-in-out;
 }
 @keyframes mymove {
-    from {top: -20px;
+    from {top: -120px;
         opacity: 0;}
-    to {top: 0px;
+    to {top: -100px;
         opacity: 1;}
 }
 .slogan h2{
